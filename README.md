@@ -31,23 +31,3 @@ $ jar -cvfm app.jar manifest.txt -C out/ .
 ```sh
 $ java -jar app.jar
 Good start
-```
-Try with another "main" class
-```sh
-$ javac -d out -cp src src/Main.java
-```
-```sh
-$ java -cp out Main
-```
-```sh
-# change the manifest.txt to use another Main-Class attribute
-$ cat manifest.txt
-Main-Class: Main
-```
-```sh
-$ jar -cvfm app.jar manifest.txt -C out/ .
-```
-```sh
-$ java -jar app.jar
-SCHOOL: ....
-```
