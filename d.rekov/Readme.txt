@@ -7,3 +7,8 @@ Homework#1
 6.d.rekov/homework.class moved to out/ folder
 __________________________________________
 1-st commit made
+
+7.Readme file created
+
+__________________________________________
+2-nd commit made
