@@ -12,3 +12,19 @@ __________________________________________
 
 __________________________________________
 2-nd commit made
+
+
+8. javac -d out src/homework.java
+9. daniil@ubuntu:~/simple_java_app_kata/d.rekov$ java -cp out homework
+First Homework
+__________________________________
+3-rd commit made
+
+10. daniil@ubuntu:~/simple_java_app_kata/d.rekov$ jar -cvf app.jar out
+added manifest
+adding: out/(in = 0) (out= 0)(stored 0%)
+adding: out/homework.class(in = 424) (out= 290)(deflated 31%)
+11.daniil@ubuntu:~/simple_java_app_kata/d.rekov$ jar -cvf app.jar -C out/ .
+added manifest
+adding: homework.class(in = 424) (out= 290)(deflated 31%)
+______________________________________
